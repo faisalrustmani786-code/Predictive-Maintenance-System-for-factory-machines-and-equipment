@@ -1,0 +1,19 @@
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Models
+# We ignore generated data and models so they aren't tracked in git, keeping the repo clean.
+models/
+data/machine_sensor_log.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
